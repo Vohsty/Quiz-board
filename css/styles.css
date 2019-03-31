@@ -1,0 +1,104 @@
+.title-img {
+  border: 2px;
+  background-image: url("images/student.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+}
+
+
+.title {
+  font-family: titleFont2;
+  color: white;
+  background-color: #5DADEC;
+  background:rgba(0,0,0,0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+
+
+.h1-font {
+  font-size: 310%;
+  position: relative;
+  top: 200px;
+  left: 80px;
+}
+
+.h4-font {
+  font-size: 150%;
+  position: relative;
+  top: 180px;
+  left: 160px;
+}
+
+#mfa{
+  color:orange;
+}
+
+.courses{
+  text-align: center;
+  border: 2px solid white;
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+.courses:hover{
+  background-color: white;
+  color: black;
+}
+.quiz{
+  text-align: center;
+  border: 2px solid orange;
+  width: 150px;
+  padding: 10px;
+  background-color: orange;
+  position: relative;
+  top: 146px;
+  left: 350px;
+}
+.quiz:hover{
+  background-color: white;
+  border: solid white;
+  color: orange;
+}
+
+a {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+}
+a:hover{
+  color: orange;
+  text-decoration: none;
+}
+.links {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 800px;
+}
+
+.title-text {
+  display: none;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+   src: url(fonts/Twisted System DEMO.otf);
+   font-family: titleFont;
+
+}
+@font-face {
+  src: url(fonts/DearPonyPersonalUse-Heavy.otf);
+  font-family: titleFont2;
+}

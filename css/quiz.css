@@ -1,0 +1,39 @@
+.html-quiz{
+
+}
+body {
+
+
+}
+.start {
+        cursor: pointer;
+        color: #0088cc;
+      }
+.start:hover {
+        text-decoration: underline;
+      }
+.html-section{
+  display: none;
+}
+.javascript-section{
+  display: none;
+}
+.jquery-section{
+  display: none;
+}
+
+a {
+  color: black;
+  margin: 12px;
+  text-decoration: none;
+}
+a:hover{
+  color: orange;
+  text-decoration: none;
+}
+.quiz-links {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 800px;
+}
