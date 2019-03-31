@@ -78,14 +78,11 @@ a:hover{
   text-decoration: none;
 }
 .links {
-  color: white;
   border: 2px;
-  padding: 5px;
-  width: 100%;
-  background-color: orange;
+  color: white;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 30px;
+  left: 800px;
 }
 
 .title-text {

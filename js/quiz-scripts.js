@@ -7,7 +7,7 @@ $(document).ready(function(){
       fav.push($(this).val());
       });
 
-    
+
       var result =fav.map(function (x){
       return parseInt(x,10);
       });
@@ -15,7 +15,8 @@ $(document).ready(function(){
       result.forEach(function(x){
       total +=x;
       })
-      alert(total);
+      alert("Your score is " +total+"%")
+
 
     });
 
@@ -31,6 +32,14 @@ $(document).ready(function(){
 
       $(".title-text").fadeIn(3000);
 
+      $('.fullBackground').fullClip({
+        images: ['images/js.jpg', 'images/CEH.jpg', 'images/stu.jpg']
+      });
+
+      $('.fullBackground').fullClip({
+        transitionTime: 1000,
+        wait: 3000
+      });
 
 
 });

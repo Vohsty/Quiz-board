@@ -1,9 +1,57 @@
-.html-quiz{
-
+*{
+  margin: 0;
+  padding: 0;
 }
+
 body {
+  margin: 10px;
+  background: #ffbba8;
+}
+.jumbotron{
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 20px;
+  background-color: #A8C3BC
+}
+.container{
+  width: 650px;
+  height: 720px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(150,150,150,0.5);
+  position: relative;
+  top: 50px;
+}
+.html-ribbon{
+  padding: 6px;
+  width: 600px;
+  height: 50px;
+  background: orange;
+  position: relative;
+  top: 0px;
+  left: -25px;
+}
 
+.html-ribbon:before{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #FB9902;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid #FB9902;
+}
 
+.html-ribbon:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -50px;
+  border-left: 25px solid orange;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
 }
 .start {
         cursor: pointer;
@@ -43,4 +91,15 @@ a:hover{
 }
 .btn{
   background-color: orange;
+}
+
+.fullBackground {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
