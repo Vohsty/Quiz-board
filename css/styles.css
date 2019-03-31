@@ -95,13 +95,19 @@ body{
 }
 
 .flexslider{
-  float: right;
   border: 2px;
   width: 410px;
   height: 310px;
+  text-align: center;
   position: relative;
   top: 500px
   left:400px
+}
+.mySlider-position{
+  border: 2px;
+  position: relative;
+  top: 500px;
+  left:400px;
 }
 
 @font-face {
