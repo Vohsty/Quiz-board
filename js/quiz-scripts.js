@@ -5,9 +5,9 @@ $(document).ready(function(){
       var total= 0;
       $.each($("input[name='choice']:checked"), function(){
       fav.push($(this).val());
-
       });
 
+    
       var result =fav.map(function (x){
       return parseInt(x,10);
       });
