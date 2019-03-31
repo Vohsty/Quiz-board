@@ -79,9 +79,13 @@ a:hover{
 }
 .links {
   color: white;
-  position: absolute;
-  top: 30px;
-  left: 800px;
+  border: 2px;
+  padding: 5px;
+  width: 100%;
+  background-color: orange;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .title-text {
@@ -91,6 +95,16 @@ a:hover{
 body{
   width: 100%;
   overflow-x: hidden;
+}
+
+.flexslider{
+  float: right;
+  border: 2px;
+  width: 410px;
+  height: 310px;
+  position: relative;
+  top: 500px
+  left:400px
 }
 
 @font-face {
