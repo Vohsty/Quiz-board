@@ -16,7 +16,7 @@ $(document).ready(function(){
       result.forEach(function(x){
       total +=x;
       })
-      $("#output2").text("Your score Is " +total);
+      $("#output2").text("Your score Is " +total+ "%");
 
 
 
