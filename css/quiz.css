@@ -14,12 +14,13 @@ body {
   padding: 20px;
   background-color: #A8C3BC
 }
-.questions{
-  
+.intro-text{
+  text-align: center;
+
 }
 .container{
   width: 750px;
-  height: 720px;
+  height: 790px;
   background: #fff;
   box-shadow: 0 0 10px rgba(150,150,150,0.5);
   position: relative;
@@ -111,4 +112,27 @@ a:hover{
   left: 0;
   width: 100%;
   height: 100%;
+}
+#output{
+  border: 2px solid red;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: -700px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#output2{
+  border: 2px solid red;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: -690px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#next{
+  background-color: orange;
+  width: 70px;
+  width: 50px;
 }

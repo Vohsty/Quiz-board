@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var name = 0;
     $("input[type='button']").click(function(){
       event.preventDefault();
       var fav = [];
@@ -15,7 +16,8 @@ $(document).ready(function(){
       result.forEach(function(x){
       total +=x;
       })
-      alert("Your score is " +total+"%")
+      $("#output2").text("Your score Is " +total);
+
 
 
     });
@@ -23,12 +25,29 @@ $(document).ready(function(){
       $(".start").click(function() {
       $(".html-section").slideToggle();
       $(".intro-text").fadeOut();
+
+
     });
 
-      $("input[type='submit']").click(function(){
+      $("#next").click(function(){
       $(".html-section").slideUp();
       $(".javascript-section").slideToggle();
       });
+
+      $("#back").click(function(){
+      $(".javascript-section").slideUp();
+      $(".html-section").slideToggle();
+
+      });
+
+      $("#user").click(function(){
+      var name = $("#add1").val();
+      var email = $("#add1").val();
+      $("#output").text(name);
+        return false;
+
+     });
+
 
       $(".title-text").fadeIn(3000);
 

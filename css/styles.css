@@ -103,7 +103,9 @@ body{
   top: 500px
   left:400px
 }
-
+.container{
+  text-align: center;
+}
 
 @font-face {
    src: url(fonts/Twisted System DEMO.otf);
@@ -113,4 +115,14 @@ body{
 @font-face {
   src: url(fonts/DearPonyPersonalUse-Heavy.otf);
   font-family: titleFont2;
+}
+.cont {
+  font-family: fantasy;
+  
+  color: orange;
+  font-size: 200%;
+  border: 2px;
+  position: relative;
+  top: -200px;
+  left: 80px;
 }
