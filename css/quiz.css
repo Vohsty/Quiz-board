@@ -14,8 +14,11 @@ body {
   padding: 20px;
   background-color: #A8C3BC
 }
+.questions{
+  
+}
 .container{
-  width: 650px;
+  width: 750px;
   height: 720px;
   background: #fff;
   box-shadow: 0 0 10px rgba(150,150,150,0.5);
@@ -53,6 +56,12 @@ body {
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
 }
+
+.btn-secondary{
+  width: 70px;
+  background-color: red;
+}
+
 .start {
         cursor: pointer;
         color: #0088cc;
